@@ -127,5 +127,7 @@ padding: 5px;
 }
 .newgame{
     font-size: 1.5rem;
+       padding: 10px;
+    width: auto;
 }
 }
