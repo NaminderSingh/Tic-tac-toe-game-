@@ -71,6 +71,7 @@ body{
     width: 100vmin;
     margin-top: 100px;
     display: none;
+    color: #A59132;
 }
 .reset{
     width: 200px;
@@ -92,10 +93,32 @@ body{
     margin: auto;
     display: flex;
     padding: 10px 20px 10px 40px;
-    background-color: #30362F;;
-    color: #A59132;
+  
+    border: 6px solid #30362F;
+    color: #30362F;
     margin-top: 30px;
     border-radius: 30px;
     display: none;
     cursor: pointer;
+}
+.newgame:hover{
+    background-color: #30362F;
+    color: #A59132;
+}
+@media only screen and (max-width:1024px){
+    .heading{
+        font-size: 2rem;
+    }
+.outer{
+    flex-direction: column;
+}
+
+.turn{
+    font-size: 2rem;
+height: 60px;
+}
+.winner{
+    font-size: 2.5rem;
+    width: 60vw;
+}
 }
